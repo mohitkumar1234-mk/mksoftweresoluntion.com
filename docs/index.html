@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PC Software Solutions & Drivers — MK Software Solutions</title>
+  <meta name="description" content="Download official PC drivers and tools. Installation guides, troubleshooting and safe download links to vendors (NVIDIA, AMD, Intel, Realtek)." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.ico" />
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="logo" href="#home">MK Software Solutions</a>
+      <nav class="main-nav" role="navigation" aria-label="Main">
+        <a href="#solutions">Solutions</a>
+        <a href="#drivers">Drivers</a>
+        <a href="#install">Install</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="mobile-menu-btn" aria-expanded="false" aria-controls="mobile-menu">Menu</button>
+    </div>
+    <div id="mobile-menu" class="mobile-menu" hidden>
+      <a href="#solutions">Solutions</a>
+      <a href="#drivers">Drivers</a>
+      <a href="#install">Install</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <h1>PC Software Solutions & Hardware Drivers</h1>
+        <p>Trusted links and simple guides to update drivers, improve stability and keep your PC secure.</p>
+        <div class="hero-cta">
+          <a class="btn primary" href="#drivers">Find Drivers</a>
+          <a class="btn" href="#solutions">Software Tools</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="solutions" class="container section">
+      <h2>PC Software Solutions</h2>
+      <p>Hand-picked utilities to maintain and protect your PC. Always download from official sources or verified vendors.</p>
+      <ul class="solutions-list">
+        <li>
+          <strong>Antivirus Software</strong>
+          <p>Protect against viruses and malware.</p>
+          <a class="btn small" href="#" aria-label="Download antivirus">Download</a>
+        </li>
+        <li>
+          <strong>System Cleaners</strong>
+          <p>Remove junk files and free disk space.</p>
+          <a class="btn small" href="#" aria-label="Download system cleaner">Download</a>
+        </li>
+        <li>
+          <strong>Backup Tools</strong>
+          <p>Back up your files and restore quickly.</p>
+          <a class="btn small" href="#" aria-label="Download backup tools">Download</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="drivers" class="container section">
+      <h2>Hardware Drivers Download</h2>
+      <p>Choose vendor links below. Use the search to filter by category.</p>
+
+      <div class="driver-tools">
+        <label for="driver-filter" class="visually-hidden">Filter drivers</label>
+        <input id="driver-filter" type="search" placeholder="Search drivers (example: graphics, audio, network)" aria-label="Search drivers" />
+      </div>
+
+      <div class="driver-grid" id="driver-grid" aria-live="polite">
+        <article class="driver-card" data-category="graphics">
+          <h3>Graphics Drivers — NVIDIA</h3>
+          <p>Official downloads and update utility.</p>
+          <a class="btn" href="https://www.nvidia.com/Download/index.aspx" target="_blank" rel="noopener">NVIDIA Drivers</a>
+        </article>
+
+        <article class="driver-card" data-category="graphics">
+          <h3>Graphics Drivers — AMD</h3>
+          <p>Official AMD Radeon drivers and tools.</p>
+          <a class="btn" href="https://www.amd.com/en/support" target="_blank" rel="noopener">AMD Drivers</a>
+        </article>
+
+        <article class="driver-card" data-category="graphics">
+          <h3>Graphics Drivers — Intel</h3>
+          <p>Integrated GPU drivers and support.</p>
+          <a class="btn" href="https://www.intel.com/content/www/us/en/support/products/graphics.html" target="_blank" rel="noopener">Intel Graphics</a>
+        </article>
+
+        <article class="driver-card" data-category="audio">
+          <h3>Audio Drivers — Realtek</h3>
+          <p>Realtek HD Audio drivers and downloads.</p>
+          <a class="btn" href="https://www.realtek.com/en/downloads" target="_blank" rel="noopener">Realtek Audio</a>
+        </article>
+
+        <article class="driver-card" data-category="network">
+          <h3>Networking — Intel</h3>
+          <p>Ethernet and Wi‑Fi adapter drivers.</p>
+          <a class="btn" href="https://www.intel.com/content/www/us/en/download-center/home.html" target="_blank" rel="noopener">Intel Networking</a>
+        </article>
+
+        <article class="driver-card" data-category="chipset">
+          <h3>Chipset Drivers</h3>
+          <p>Motherboard chipset and platform drivers — check your board vendor.</p>
+          <a class="btn" href="#" target="_blank" rel="noopener">Manufacturer Support</a>
+        </article>
+      </div>
+
+      <p class="note"><em>Note: Always confirm your device model and OS before downloading. We link to official vendor pages to reduce risk of malware.</em></p>
+    </section>
+
+    <section id="install" class="container section">
+      <h2>Installation Guide</h2>
+      <ol>
+        <li>Download the correct driver from the vendor link above.</li>
+        <li>Close other programs. If provided, create a restore point.</li>
+        <li>Run the installer as an administrator (right-click &gt; Run as administrator).</li>
+        <li>Follow on-screen prompts and restart if requested.</li>
+        <li>Open Device Manager to confirm the device is using the updated driver.</li>
+      </ol>
+      <p>For persistent issues, check the manufacturer's support site and release notes.</p>
+    </section>
+
+    <section id="faq" class="container section">
+      <h2>FAQ</h2>
+      <div class="accordion" id="faq-accordion">
+        <div class="accordion-item">
+          <button class="accordion-btn" aria-expanded="false">How do I know which driver I need?</button>
+          <div class="accordion-panel" hidden>
+            <p>Check your device model and OS version. On Windows, Device Manager shows device names and hardware IDs. Use vendor pages (NVIDIA/AMD/Intel) with the model to find the correct driver.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-btn" aria-expanded="false">Is it safe to download drivers here?</button>
+          <div class="accordion-panel" hidden>
+            <p>We link to official vendor download pages. We do not host driver binaries ourselves — this reduces risk. Avoid third-party driver sites unless they are reputable.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="container section">
+      <h2>Contact & Support</h2>
+      <p>If you need help, use this contact form or email <a href="mailto:support@pcsoftdrivers.com">support@pcsoftdrivers.com</a>. For urgent hardware issues, contact the device manufacturer.</p>
+
+      <form id="contact-form" class="contact-form" novalidate>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required />
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+
+        <button class="btn primary" type="submit">Send Message</button>
+        <div id="form-status" role="status" aria-live="polite"></div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> MK Software Solutions. All rights reserved.</p>
+      <p class="small">Downloads link to third-party vendor websites for convenience. MK Software Solutions is not responsible for third-party content. Use at your own risk.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
